@@ -1,0 +1,11 @@
+web:
+  build: ./web
+
+nginx:
+  build: ./nginx/
+
+postgres:
+  build: ./postgres
+
+redis:
+  build: ./redis
